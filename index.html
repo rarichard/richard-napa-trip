@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Napa Valley — May 7–11</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero / Landing -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-subtitle">A Long Weekend in</p>
+      <h1 class="hero-title">Napa Valley</h1>
+      <p class="hero-dates">May 7 – 11, 2026</p>
+      <button class="hero-cta" onclick="goToDay(0)">View the Itinerary</button>
+    </div>
+  </header>
+
+  <!-- Day Navigation -->
+  <nav class="day-nav" id="dayNav">
+    <div class="day-nav-inner">
+      <button class="day-tab active" data-day="0">
+        <span class="day-tab-label">Thu</span>
+        <span class="day-tab-date">May 7</span>
+      </button>
+      <button class="day-tab" data-day="1">
+        <span class="day-tab-label">Fri</span>
+        <span class="day-tab-date">May 8</span>
+      </button>
+      <button class="day-tab" data-day="2">
+        <span class="day-tab-label">Sat</span>
+        <span class="day-tab-date">May 9</span>
+      </button>
+      <button class="day-tab" data-day="3">
+        <span class="day-tab-label">Sun</span>
+        <span class="day-tab-date">May 10</span>
+      </button>
+      <button class="day-tab" data-day="4">
+        <span class="day-tab-label">Mon</span>
+        <span class="day-tab-date">May 11</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Day Panels -->
+  <main class="days-container">
+
+    <!-- DAY 1: Thursday, May 7 -->
+    <section class="day-panel active" data-day="0">
+      <div class="day-header">
+        <span class="day-header-tag">Day One</span>
+        <h2 class="day-header-title">Arrival &amp; Downtown Napa</h2>
+        <p class="day-header-date">Thursday, May 7</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">Afternoon</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://archerhotel.com/images/pages/81-outro.jpg')"></div>
+            <div class="timeline-card-body">
+              <h3>Archer Hotel Napa</h3>
+              <p class="timeline-card-meta">Check-in &middot; 1230 First Street, Napa</p>
+              <p>A luxurious boutique hotel nestled in the heart of downtown Napa's First Street, steps from over 60 tasting rooms, shops, and restaurants. Archer blends modern sophistication with wine country charm through curated art collections, locally sourced touches, and thoughtful amenities. Recognized by Cond&eacute; Nast Traveler, AAA Four Diamond, and Forbes Travel Guide, the property features a rooftop spa, acclaimed dining, and rooms with private balconies overlooking wine country.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">Lunch</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://oxbowpublicmarket.com/wp-content/uploads/2022/09/OxbowMarket_Exterior_Drone_14.jpg')"></div>
+            <div class="timeline-card-body">
+              <h3>Oxbow Public Market</h3>
+              <p class="timeline-card-meta">Lunch &amp; Exploration &middot; 610 First Street, Napa</p>
+              <p>Napa Valley's beloved local gathering place for great food and wine, bringing together artisan producers, food vendors, and wine purveyors under one roof along the Napa River. The indoor marketplace celebrates the region's culinary culture with a curated mix of vendors offering everything from fresh produce and specialty foods to local wines. A vibrant, community-driven atmosphere perfect for grazing, discovering new flavors, and soaking in the local food scene.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">Evening</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://archerhotel.com/images/pages/493.jpg?1774924276')"></div>
+            <div class="timeline-card-body">
+              <h3>Sky &amp; Vine Rooftop</h3>
+              <p class="timeline-card-meta">Drinks &amp; Dinner &middot; Atop the Archer Hotel</p>
+              <p>Perched six stories above downtown Napa, Sky &amp; Vine is Napa Valley's favorite rooftop bar, offering sweeping valley views alongside seasonal fire pits and a relaxed, convivial atmosphere. The menu features thoughtful, shareable plates rooted in seasonal ingredients and a genuine love for bringing people together over fresh flavors and great company. An ideal spot for sunset cocktails or a leisurely evening overlooking wine country.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DAY 2: Friday, May 8 -->
+    <section class="day-panel" data-day="1">
+      <div class="day-header">
+        <span class="day-header-tag">Day Two</span>
+        <h2 class="day-header-title">Donum &amp; Raymond</h2>
+        <p class="day-header-date">Friday, May 8</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">10:00 AM</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://www.thedonumestate.com/assets/upload/images/.thumbs/experiences-Discover_Tasting_Experience-0.670.0.jpg')"></div>
+            <div class="timeline-card-body">
+              <h3>The Donum Estate</h3>
+              <p class="timeline-card-meta">Discover Experience &middot; ~90 minutes &middot; Carneros</p>
+              <p>A guided walking tour through Donum's culinary gardens, working farm, and select highlights of The Donum Art Collection — one of the world's largest accessible private sculpture collections, featuring over 60 monumental works by artists such as Ai Weiwei, Yayoi Kusama, Louise Bourgeois, and Keith Haring. The tour culminates in a seated tasting of Donum's single-vineyard Pinot Noir and Chardonnay, paired with seasonal canap&eacute;s made from estate-sourced ingredients. A rare fusion of fine wine, world-class contemporary art, and regenerative farming set across 200 acres in Carneros.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">2:00 PM</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://images.raymondvineyards.com/production/Experiences/RaymondSommSelectFeb202025-064.jpg')"></div>
+            <div class="timeline-card-body">
+              <h3>Raymond Vineyards</h3>
+              <p class="timeline-card-meta">Winemaker For A Day &middot; St. Helena</p>
+              <p>Live the dream of being a winemaker in Raymond's Crystal Cellar. This hands-on blending experience guides you through the art of crafting a Napa Valley Bordeaux-style red blend under expert guidance. Blend, bottle, and label your own custom creation to take home as a personalized vintage — with the option to reorder your signature blend anytime afterward. An immersive, creative experience at one of Napa's most distinctive and design-forward estates, currently celebrating its 50th anniversary.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DAY 3: Saturday, May 9 -->
+    <section class="day-panel" data-day="2">
+      <div class="day-header">
+        <span class="day-header-tag">Day Three</span>
+        <h2 class="day-header-title">Schramsberg Day</h2>
+        <p class="day-header-date">Saturday, May 9</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">10:30 AM</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://www.schramsberg.com/wp-content/uploads/Schrams_ClosePour_Oct2015_MG_3553_visit-1919x600.jpg')"></div>
+            <div class="timeline-card-body">
+              <h3>Schramsberg Vineyards</h3>
+              <p class="timeline-card-meta">Cave Tour with Classic Tasting &middot; ~75 minutes</p>
+              <p>A guided journey through Schramsberg's historic underground caves — one of Napa Valley's most storied sparkling wine producers. The roughly 75-minute experience takes place entirely indoors within the atmospheric cave system, where you'll sample six limited-production sparkling wines and still wines from the Davies Vineyards label. An intimate, immersive experience that pairs rich winemaking history with exceptional bubbles.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-item-optional">
+          <div class="timeline-marker">
+            <span class="timeline-time">Afternoon</span>
+            <span class="timeline-optional-badge">Optional</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://castellodiamorosa.com/wp-content/uploads/2018/05/SubPage_TopOfBG.png')"></div>
+            <div class="timeline-card-body">
+              <h3>Castello di Amorosa</h3>
+              <p class="timeline-card-meta">Tour &amp; Tasting &middot; Calistoga</p>
+              <p>An authentically styled 14th-century Tuscan castle in Calistoga — 107 rooms spanning 121,000 square feet, complete with a chapel, Knights Hall, Great Hall, and even a medieval torture chamber. The Diamond Estate Tour guides you through two upper levels of the castle while tasting reserve and current-release wines. A truly one-of-a-kind spectacle in Napa Valley — part winery, part architectural marvel. Alternatively, keep the afternoon open for exploring or relaxing.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DAY 4: Sunday, May 10 -->
+    <section class="day-panel" data-day="3">
+      <div class="day-header">
+        <span class="day-header-tag">Day Four</span>
+        <h2 class="day-header-title">Mayacamas Day</h2>
+        <p class="day-header-date">Sunday, May 10</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">11:30 AM</span>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-card-image" style="background-image: url('https://www.mayacamas.com/wp-content/uploads/2023/02/Mayacamas-View-1600x940-1.jpg')"></div>
+            <div class="timeline-card-body">
+              <h3>Mayacamas Vineyards</h3>
+              <p class="timeline-card-meta">Reserve Estate Tour &amp; Tasting &middot; ~90 minutes &middot; Mount Veeder</p>
+              <p>A privately guided, in-depth exploration of one of Napa Valley's most historic mountain properties, founded in 1889. Set high on Mount Veeder, the 90-minute experience takes you through the estate grounds to discover its unique high-elevation terroir and over 135 years of winemaking history. The tour culminates in a curated tasting of both current releases and rare library vintages. Widely regarded as a legendary California wine estate — the intimate, appointment-only format amid mountaintop views makes this one of the valley's most contemplative and unhurried experiences.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">Afternoon</span>
+          </div>
+          <div class="timeline-card no-image">
+            <div class="timeline-card-body">
+              <h3>Open Afternoon</h3>
+              <p>Return from the mountain and enjoy the rest of the day at your own pace — perhaps a late lunch downtown, a stroll through Napa, or relaxing at the hotel before the last evening in wine country.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DAY 5: Monday, May 11 -->
+    <section class="day-panel" data-day="4">
+      <div class="day-header">
+        <span class="day-header-tag">Day Five</span>
+        <h2 class="day-header-title">Departure</h2>
+        <p class="day-header-date">Monday, May 11</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <span class="timeline-time">Morning</span>
+          </div>
+          <div class="timeline-card no-image">
+            <div class="timeline-card-body">
+              <h3>Coffee &amp; Breakfast Downtown</h3>
+              <p>Start the morning with coffee and a leisurely breakfast in downtown Napa before heading home. An easy departure day to savor the last moments of wine country.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Day Navigation Arrows (Mobile) -->
+  <div class="day-arrows" id="dayArrows">
+    <button class="day-arrow day-arrow-prev" id="prevDay" onclick="prevDay()" disabled>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span>Previous Day</span>
+    </button>
+    <button class="day-arrow day-arrow-next" id="nextDay" onclick="nextDay()">
+      <span>Next Day</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <footer class="site-footer">
+    <p>Napa Valley &middot; May 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
